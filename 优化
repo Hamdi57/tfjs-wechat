@@ -1,0 +1,14 @@
+"""
+逗号 (,) 符号有问题。 共有三个包依赖 dependencies 键，每个包（包括最后一个包）的末尾都有一个逗号 (,)。 但是，在最后一个列表中的项目之后使用逗号是语法错误。
+"""
+{
+  "name": "yourProject",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tensorflow/tfjs-core": "^3.9.0",
+    "@tensorflow/tfjs-converter": "^3.9.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.9.0"
+  }
+}
